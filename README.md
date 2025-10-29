@@ -46,17 +46,23 @@ Smooth scroll and fade animations powered by **AOS (Animate on Scroll)** library
 ---
 
 ## 📂 Folder Structure
-portfolio/ │ 
-├── index.html   #Main HTML file
-├── style.css    #Styling (layout, colors, animations) 
-├── script.js  #JS logic (typing, dark mode, slideshow) │
-├── images/ # All image files used in the site │  
-            ├── bg1.jpg │ 
-            ├── bg2.jpg │  
-            ├── project1.jpg │  
+portfolio/
+│ 
+├── index.html 
+├── style.css   
+├── script.js 
+│
+├── images/│  
+            ├── bg1.jpg    
+│ 
+            ├── bg2.jpg 
+│  
+            ├── project1.jpg 
+│  
             └── project2.jpg 
-├── assets/ # Extra files (e.g., CV) │   
-    └── Immanuel_CV.pdf │ 
+├── assets/│   
+            └── Immanuel_CV.pdf
+│ 
 └── README.md 
 └──a54debc42808d428bdec7c3f27fa7b5a.jpg
 └── CV.html
