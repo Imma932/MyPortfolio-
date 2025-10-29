@@ -1,0 +1,138 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background: #f6f8fa;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+.cv-container {
+  max-width: 850px;
+  margin: 40px auto;
+  background: #fff;
+  border-radius: 10px;
+  padding: 40px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+header {
+  text-align: center;
+  border-bottom: 2px solid #0077b6;
+  padding-bottom: 20px;
+  margin-bottom: 30px;
+}
+
+header h1 {
+  color: #0077b6;
+  margin-bottom: 5px;
+}
+
+header .role {
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: #444;
+}
+
+.contact-info a {
+  color: #0077b6;
+  text-decoration: none;
+}
+
+.contact-info a:hover {
+  text-decoration: underline;
+}
+
+section {
+  margin-bottom: 25px;
+}
+
+h2 {
+  border-left: 4px solid #0077b6;
+  padding-left: 10px;
+  color: #0077b6;
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  margin-bottom: 6px;
+}
+
+footer {
+  text-align: center;
+  font-size: 0.9rem;
+  color: #777;
+  margin-top: 40px;
+}
+/* Referees section */
+.referees {
+  margin-top: 30px;
+}
+
+.referees > h2 {
+  border-left: 4px solid #0077b6;
+  padding-left: 10px;
+  color: #0077b6;
+  margin-bottom: 16px;
+}
+
+/* Flexible grid: 2 columns on wide screens, 1 column on small */
+.referee-list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 18px;
+}
+
+/* Card style */
+.referee-card {
+  background: #f8fbff;
+  border-radius: 10px;
+  padding: 16px;
+  border-left: 4px solid #0077b6;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.06);
+}
+
+/* Header inside card */
+.referee-head h3 {
+  margin: 0 0 6px;
+  color: #005b8a;
+  font-size: 1.05rem;
+}
+
+.ref-role {
+  margin: 0 0 10px;
+  font-size: 0.95rem;
+  color: #444;
+}
+
+/* Contact lines */
+.ref-contact p {
+  margin: 6px 0;
+  font-size: 0.95rem;
+  color: #333;
+  word-break: break-word; /* prevents overflow from long emails/URLs */
+}
+
+.ref-contact a {
+  color: #0077b6;
+  text-decoration: none;
+}
+
+.ref-contact a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive: stack single column on narrow screens */
+@media (max-width: 700px) {
+  .referee-list {
+    grid-template-columns: 1fr;
+  }
+
+  .referee-card {
+    padding: 14px;
+  }
+}
